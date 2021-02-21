@@ -14,7 +14,7 @@
 
 
 
-### red team activity
+### Red Team Activity
 - Red team used ICMP reverse shell to access our boxes. We could of detected the shells by using tcpdump. 
 - TCPDUMP manpage
     - https://www.tcpdump.org/manpages/tcpdump.1.html
