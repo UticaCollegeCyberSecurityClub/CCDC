@@ -12,3 +12,25 @@
 - https://www.cvedetails.com/vulnerability-list/vendor_id-10515/product_id-18788/Zeus-Zeus-Web-Server.html
 - https://www.exploit-db.com/exploits/22692
 
+
+
+### red team activity
+- Red team used ICMP reverse shell to access our boxes. We could of detected the shells by using tcpdump. 
+- TCPDUMP manpage
+    - https://www.tcpdump.org/manpages/tcpdump.1.html
+### This command could be used to capture all ICMP traffic
+```
+sudo tcpdump -n icmp
+```
+The following command will show ICMP Packets that are not ECHO/REPLY
+
+```
+sudo tcpdump 'icmp[icmptype] != icmp-echo and icmp[icmptype] != icmp-echoreply'
+```
+
+
+
+
+
+# Work cited
+- https://hackertarget.com/tcpdump-examples/
