@@ -62,4 +62,5 @@ nmap 192.168.*.*
 
 
 # Work cited
-- https://hackertarget.com/tcpdump-examples/
+- https://hackertarget.com/tcpdump-examples
+- https://nmap.org/book/man-version-detection.html
