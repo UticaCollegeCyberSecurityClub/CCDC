@@ -44,11 +44,21 @@ nmap -O 192.168.0.1
 ```
 
 NMAP also has an agurment that allows the user to get information about the services versions. 
-This could be useful if that service has a public vulnerablitiy. 
+This could be useful if that service has a public vulnerability. 
 ```
 nmap -sV 192.168.0.1
 ```
 
+```
+nmap 192.168.0.*
+```
+The command above will make NMAP scan all through the following IP range, 192.168.0.0-192.168.0.255. 
+The "*" acts as a wild card. 
+
+Another example of usage is:
+```
+nmap 192.168.*.*
+```
 
 
 # Work cited
