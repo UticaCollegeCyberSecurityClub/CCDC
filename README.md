@@ -30,6 +30,25 @@ sudo tcpdump 'icmp[icmptype] != icmp-echo and icmp[icmptype] != icmp-echoreply'
 
 
 
+### NMAP
+
+
+Host discovery is used to find other devices in a network. This will give you a better idea what is 
+on the network. 
+```
+nmap -sL 192.168.0.1
+```
+The -O command can be used to get information about the operating system. 
+```
+nmap -O 192.168.0.1
+```
+
+NMAP also has an agurment that allows the user to get information about the services versions. 
+This could be useful if that service has a public vulnerablitiy. 
+```
+nmap -sV 192.168.0.1
+```
+
 
 
 # Work cited
