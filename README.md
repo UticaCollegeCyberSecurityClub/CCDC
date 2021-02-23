@@ -60,6 +60,13 @@ Another example of usage is:
 nmap 192.168.*.*
 ```
 
+### Searching to see if the service is vulnerable
+The site Exploit-db.com is a good site to find public exploits.  Another good way of checking to see if a service has a vulnerabilities, is Googling queries like this:
+
+- apache 2.4.17 exploit
+
+
+
 
 # Work cited
 - https://hackertarget.com/tcpdump-examples
